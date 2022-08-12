@@ -1,19 +1,19 @@
 // Owner number
-global.owner = '6281390225803'
+global.owner = '212605784394'
 // Owner name
-global.owner_name = 'Customer Service'
+global.owner_name = 'ɴᴏᴜʀᴇᴅᴅɪɴᴇ_ᴏᴜᴀꜰʏ'
 // Maximum upload file size limit (Default : 250 MB)
 global.max_upload = 250
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
-// User Limitation (Default : 10)
-global.limit = 10
+// User Limitation (Default : 10000)
+global.limit = 10000
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
 global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
-global.blocks = ['91', '92', '212']
+global.blocks = ['91', '92', '62']
 // Put target jid to forward friends story
 global.forwards = '6285221100126@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
@@ -22,7 +22,7 @@ global.Api = new (require('./neoxrApi'))('dKwtXX')
 global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'instagram.com/noureddine_ouafy'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
