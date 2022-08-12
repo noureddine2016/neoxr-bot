@@ -39,7 +39,7 @@ module.exports = (m) => {
          if (!('mute' in group)) group.mute = false
          if (!('member' in group)) group.member = {}
          if (!('text_left' in group)) group.text_left = ''
-         if (!('text_welcome' in group)) group.text_welcome = ''
+         if (!('text_welcome' in group)) group.text_welcome = 'merhba bik'
          if (!('welcome' in group)) group.welcome = true
       } else {
          global.db.groups[m.chat] = {
@@ -100,8 +100,8 @@ module.exports = (m) => {
          error: [],
          pluginDisable: [],
          groupmode: false,
-         sk_pack: 'Sticker',
-         sk_author: '@neoxrs',
+         sk_pack: 'ʙᴏʙɪᴢ ʙᴏᴛ',
+         sk_author: 'ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ',
          self: false,
          mimic: [],
          multiprefix: true,
@@ -109,8 +109,8 @@ module.exports = (m) => {
          toxic: ["ajg", "ajig", "anjas", "anjg", "anjim", "anjing", "anjrot", "anying", "asw", "autis", "babi", "bacod", "bacot", "bagong", "bajingan", "bangsad", "bangsat", "bastard", "bego", "bgsd", "biadab", "biadap", "bitch", "bngst", "bodoh", "bokep", "cocote", "coli", "colmek", "comli", "dajjal", "dancok", "dongo", "fuck", "gelay", "goblog", "goblok", "guoblog", "guoblok", "hairul", "henceut", "idiot", "itil", "jamet", "jancok", "jembut", "jingan", "kafir", "kanjut", "kanyut", "keparat", "kntl", "kontol", "lana", "loli", "lont", "lonte", "mancing", "meki", "memek", "ngentod", "ngentot", "ngewe", "ngocok", "ngtd", "njeng", "njing", "njinx", "oppai", "pantek", "pantek", "peler", "pepek", "pilat", "pler", "pornhub", "pucek", "puki", "pukimak", "redhub", "sange", "setan", "silit", "telaso", "tempek", "tete", "titit", "toket", "tolol", "tomlol", "tytyd", "wildan", "xnxx"],
          online: true,
          onlyprefix: '+',
-         owners: ['6285887776722', '994408364923'],
-         msg: 'hello'     
+         owners: ['212605784394'],
+         msg: 'تابعني على الانستغرام للمزيد من البوتات instagram.com/noureddine_ouafy'     
       }
    }
 }
